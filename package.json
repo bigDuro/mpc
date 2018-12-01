@@ -1,0 +1,24 @@
+{
+  "name": "mpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server/app.js",
+    "heroku-postbuild": "cd src/client && npm install --only=dev && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigDuro/mpc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bigDuro/mpc/issues"
+  },
+  "homepage": "https://github.com/bigDuro/mpc#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
